@@ -49,7 +49,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width: 100%;
+	
 }
 
 html, body {
@@ -64,3 +68,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+body {
+	width: 800px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+.navLink {
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+	opacity: 50%;
+
+}
+header img.logo{
+	margin-left: 25px;
+}
+.container{
+	padding: 4%;
+	margin: 20px;
+}
+.container .left{
+	display: inline-block;
+	width: 49%;
+	padding: 40px;
+	vertical-align: middle;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+.container .right{
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+
+button{
+	margin-left: 23%;
+	padding: 8px 32px;
+	border-color: black;
+	font-size: 13px;
+	vertical-align: middle;
+	background-color: white;
+	font-weight: bold;
+}
+
+.topTwo{
+	border-top: 1px solid black;
+}
+.topTwo .features{
+	display: inline-block;
+	width:49%;
+	padding: 20px 0;
+}
+.topTwo .about{
+	display: inline-block;
+	width:49%;
+	padding: 20px 0;
+}
+.bottomThree .services{
+	display: inline-block;
+	width:32%;
+	padding: 20px 0;
+}
+.bottomThree .products{
+	display: inline-block;
+	width:32%;
+	padding: 20px 30;
+}
+.bottomThree .vision{
+	display: inline-block;
+	width:32%;
+	padding: 20px 0;
+}
+.contact{
+	border-top: 1px solid black;
+	margin-top: 10px;
+}
+.contact h3{
+	margin-top: 20px;
+}
+.contact .info{
+	margin-top: 20px;
+}
+footer{
+	margin: 50px 0;
+	text-align: center;
+}
